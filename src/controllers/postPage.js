@@ -7,8 +7,8 @@ module.exports = (req, res) => {
     method: 'GET',
     url: `https://graph.facebook.com/v3.0/${pageid}/feed?fields=created_time,description,full_picture,message,message_tags,name,picture,attachments{description,media,title,type},likes,with_tags,id,link&since=1483228800&until=1596275200&limit=100`,
     headers: {
-      authority: graph.facebook.com,
-      method: GET,
+      authority: 'graph.facebook.com',
+      method: 'GET',
       path: '//v3.0/schema/pagepost/reactions?access_token=EAACEdEose0cBAPAvEGB6VOkqLYL5bj9HZAFZCH5de6VzYxP6fYvhy43hyZAuarpNKoDUhIS7gwLCmmZANnxNuLsZA23CJveSxKYHHKl8I9uMyOkC7TGUxyrhAY7ZAnq5fwo2YHT1KMwi0nfPHREcM8P0N58wLoJQ4n35zKnVe4u35lGojsjmeDTZCKkkDGrZCUgZD&callback=__globalCallbacks.f3fbc36e2b0db84&method=get',
       scheme: 'https',
       accept: '*/*',
